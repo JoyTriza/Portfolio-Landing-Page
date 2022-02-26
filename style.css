@@ -5,40 +5,17 @@
 
 }
 
-body{
-    background:honeydew ;
+.Wangare{
+    background-color: antiquewhite;
+
 
 }
-/*Navbar*/
-.navbar{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color:rgba(0, 0, 0, 0.5) ;
-    position: sticky;
-    top: 0;
+img{
+    height: 300px;
+    width: 300px;  
+    border-radius: 50%;
 }
-.nav ul{
-    display: flex;
-    list-style: none;
-    margin: 20px 
-}
-.nav ul li {
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 20px;
-    font-weight: bold;
 
-}
-.navbar ul li a{
-    text-decoration: none;
-    color:antiquewhite;
-    padding: 8px 25px;
-    transition: all .5s;
-
-}
-.navbar ul li a :hover{
-    background-color: black;
-    color:black;
-    box shadow: 0 0 10px red;
-
+.JOY{
+    text-align: center;
 }
