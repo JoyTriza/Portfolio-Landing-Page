@@ -78,7 +78,6 @@
 .form textarea{
     background-color: #000000;
     border-radius: 7px;
-    margin-top: 15px;
 }
 .form textarea:hover {
     background-color: 1px 1px 3px #FFC2C7;
