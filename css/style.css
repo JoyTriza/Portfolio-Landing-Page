@@ -1,0 +1,85 @@
+.margin {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+  }
+  .margin-img {
+    display: block;
+    width: 100%;
+    height: 100vh;
+  }
+  .image_overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #FFC2C7;
+    display: flex;
+    font-weight: bold;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: justify;
+    opacity: 0;
+  }
+  .image_overlay:hover {
+    opacity: 1;
+  }
+  
+  .kiki img {
+      width: 100%;
+      height: 500px;
+
+  }
+  .tj input {
+      border: none;
+      background-color: #000000;
+      border-radius: 7px;
+      text-align: center;
+      color: #FFC2C7;
+      height:30px ;
+      width: 347px ;
+      
+  } 
+  .tj input:hover {
+    box-shadow: 1px 1px 3px #FFC2C7;
+
+  
+  }
+  .kare {
+      background-color:#FFC2C7;
+    
+      
+  }
+  .form button {
+      border: none;
+      padding: 5px 15px;
+      border-radius: 7px;
+      
+}
+  .form button:hover{
+      background-color: #000000;
+      color: white;
+  }
+  .joy {
+      background-color: #FFC2C7;
+  }
+  .rithi {
+      text-align: justify;
+  }
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.form textarea{
+    background-color: #000000;
+    border-radius: 7px;
+    margin-top: 15px;
+}
+.form textarea:hover {
+    background-color: 1px 1px 3px #FFC2C7;
+}
